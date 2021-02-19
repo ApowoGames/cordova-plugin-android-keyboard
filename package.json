@@ -3,5 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "聂开发 <niekaifa@apowo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version -a",
+    "pre-release": "standard-version -a -p --skip.changelog=true --skip.tag=true"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "sync-cordova-xml2 package.json plugin.xml --output=plugin.xml && git add plugin.xml"
+    }
+  },
+  "devDependencies": {
+    "standard-version": "^7.0.0",
+    "sync-cordova-xml2": "0.0.3"
+  }
 }
