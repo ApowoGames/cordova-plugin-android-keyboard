@@ -1,0 +1,7 @@
+{
+  "name": "cordova-plugin-android-keyboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "聂开发 <niekaifa@apowo.com>",
+  "license": "MIT"
+}
