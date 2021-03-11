@@ -5,7 +5,7 @@
     <description>Ionic Keyboard Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,keyboard,ecosystem:cordova,cordova-ios,cordova-android</keywords>
-    <repo>https://github.com/ApowoGames/cordova-plugin-android-keyboard</repo>
+    <repo>https://code.apowo.com/opensource/cordova-plugin-android-keyboard</repo>
     <issue>https://github.com/ApowoGames/cordova-plugin-android-keyboard/issues</issue>
     <author>Apache Software Foundation</author>
 
